@@ -1,0 +1,155 @@
+.tool_bar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 50px;
+    background: #2f2f2f;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    position: fixed;
+    top: 0px;
+}
+.logo{
+    /* margin:auto 1%; */
+    width: 5%;
+    align-items: center;
+}
+.logo a{
+    color: white;
+}
+.series_name{
+    /* margin: auto 1%; */
+    width: inherit;
+    width: 10%;
+}
+.series_name a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.ep_no{
+    margin: auto 1%;
+}
+.prev_nxt{
+    width: 70%;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto 30%; */
+
+}
+.prev_nxt a{
+    color: black;
+}
+.next,.prev{
+    margin: auto 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background:white;
+    width: 30px;
+    border-radius: 100%;
+    text-align: center;
+
+}
+.share{
+    /* margin-right: 5%; */
+    display: flex;
+    color: white;
+}
+.share_icon a{
+    color: #fff;
+    margin: auto 10px;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+}
+.images{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+.images img{
+    width: 100%;
+    margin-top: 0px;
+}
+/* footer starts here */
+
+.footer{
+    width: 100%;
+    height: 15rem;
+    background:#2f2f2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_social{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 30px;
+    margin-top: 10px;
+    align-items: center;
+   
+}
+.footer_social a{
+    color: #fff;
+    font-size: 2rem;
+    margin: 0px 7px;
+}
+.footer_bar{
+    width: 70%;
+    
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer_bar a{
+    margin: auto 10px;
+    color: white;
+    text-decoration: none;
+}
+.footer_logo{
+    width: 5%;
+    
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+  .share_icon{
+      display:none;
+  }
+  .logo{
+      display: none;
+  }
+  .series_name{
+      width: 20%;
+  }
+  .prev_nxt{
+      width: 60%;
+  }
+  .footer{
+      height: 10rem;
+  }
+}

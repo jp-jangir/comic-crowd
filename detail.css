@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar starts here */
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #2f2f2f;
+}
+.left-bar{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    margin-top: auto;
+}
+.title a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+.nav-list{
+    height: 100%;
+}
+.nav-item-icon{
+    display: none;
+}
+.list{
+    height: 100%;
+    display: flex;
+    list-style: none;
+  
+    
+    align-items: center;
+}
+.nav-item a{
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.left-bar-item{
+    margin: auto 5px;
+    width: auto;
+}
+
+
+.right-bar{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.right-bar-item{
+    margin-right: 20px;
+    
+}
+.right-bar-item a{
+    font-size: 1rem;
+    border-radius: 17px;
+    padding: 3px 20px;
+}
+.right-bar-item input{
+    border-radius: 17px;
+}
+
+.comic_image{
+    width: 100%;
+    height:25rem;
+    text-align: center;   
+}
+.image_div{
+    width: 100%;
+    height: inherit;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* background: blue; */
+    position: relative;
+    top: -75px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.content_box{
+    width: 55%;
+    background: rgb(255, 252, 252);
+    border: 1px solid black;
+    height: 500px;
+    
+}
+.chapters{
+    height: 430px;
+    overflow: scroll;
+}
+.note{
+    width: 100%;
+    height: 50px;
+}
+.note p{
+    margin: 3% 10px;
+}
+.chapter_list{
+    background-color: rgb(218, 214, 214);
+    margin: 5px;
+    border-radius: 25px;
+    
+}
+.chapter_list a{
+    text-decoration: none;
+    color: black;
+}
+.chapter{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 99%;
+    height: 70px;
+    margin: 0px;
+   
+}
+.name_no{
+    width: 30%;
+
+}
+.views{
+    width: 70%;
+    text-align: end;
+    margin-right: 10px;
+}
+.about{
+    width: 30%;
+    height: 500px;
+    background: white;
+}
+.like_sub{
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+
+.name_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.likes,.subscriber,.rating{
+margin:30px;
+}
+/* footer starts here */
+
+.footer{
+    width: 100%;
+    height: 15rem;
+    background:#2f2f2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_social{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 30px;
+    margin-top: 10px;
+    align-items: center;
+   
+}
+.footer_social a{
+    color: #fff;
+    font-size: 2rem;
+    margin: 0px 7px;
+}
+.footer_bar{
+    width: 70%;
+    
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer_bar a{
+    margin: auto 10px;
+    color: white;
+    text-decoration: none;
+}
+.footer_logo{
+    width: 5%;
+    
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+@media  screen and (max-width:600px) {
+.content_box{
+    width: 100%;
+}
+.name_no{
+    font-size: 1rem;
+}
+.content{
+    top: 0px;
+    flex-direction: column-reverse;
+
+}
+.about{
+
+    width: 100%;
+    background: none;
+    height: 15rem;
+    overflow-y: hidden;
+}
+.comic_image{
+    height: 15rem;
+}
+.like_sub{
+    display:none;
+}
+.text_name{
+    float:left;
+
+}
+.footer{
+    height: 10rem;
+}
+
+.left-bar{
+    width: 100%;
+    margin: auto 0px;
+}
+.title{
+    margin: auto 0px;
+}
+.title a{
+    font-size: 1.5rem;
+}
+.nav-item-links{
+    display: none;
+}
+.nav-item-icon{
+    display: block;
+}
+.right-bar{
+    display: none;
+}
+}
